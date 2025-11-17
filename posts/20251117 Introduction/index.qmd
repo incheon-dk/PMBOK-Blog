@@ -1,5 +1,5 @@
 ---
-title: "Introduction to PMBOK for Modern Project Managers"
+title: "Introduction to Projects for Modern Project Managers"
 author: "DK"
 date: "2025-11-17"
 categories: [intro]
@@ -8,7 +8,7 @@ image: "20251104_163313.jpg"
 
 # Introduction
 
-PMBOK has evolved dramatically over the last decade. What many of us learned as *process groups, ITTOs, and detailed workflows* has shifted into a broader, principle-driven view of project management that recognizes that no two projects look the same.
+Project Management, as described and captured in the latest edition, has evolved dramatically over the last decade. What many of us learned as *process groups, ITTOs (*Inputs, Tools, Techniques, and Outputs)*, and detailed workflows* has shifted into a broader, principle-driven view of project management that recognizes that no two projects look the same.
 
 This post breaks down what PMBOK really is (and isn’t), why the 7th Edition shifted direction, and how to use PMBOK as a practical toolkit — not a rigid rulebook.
 

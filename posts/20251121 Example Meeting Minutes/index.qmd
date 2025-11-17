@@ -1,0 +1,97 @@
+---
+title: "Post 4: Global Project Team Meeting"
+author: "DK"
+date: "2025-11-21"
+categories: [minutes]
+image: "20251106_164337.jpg"
+---
+
+# \# Meeting Agenda
+
+\- Welcome and roll call
+
+\- Status updates from each regional team
+
+\- Review of CDR (Critical Design Review) readiness
+
+\- Open technical risks and mitigations
+
+\- Schedule alignment and next steps
+
+\- Action items and owners
+
+\# Meeting Notes
+
+\*\*Date:\*\* 2025-11-17
+
+\*\*Time:\*\* 08:00 PST / 17:00 CET / 21:30 IST
+
+\*\*Attendees:\*\* US Engineering, EU Systems Team, India Firmware Team, Program Management, Quality, Supply Chain
+
+\## 1. Welcome and Roll Call
+
+\- All key functions present. China mechanical team absent due to local holiday; asynchronous input provided ahead of time.
+
+\## 2. Regional Status Updates
+
+\### US Engineering
+
+\- Finalizing subsystem integration results. Remaining firmware–hardware interface test will complete by end of week.
+
+\### EU Systems Team
+
+\- Verification procedures drafted and undergoing internal review.
+
+\- Requesting clarity on environmental test limits for CDR packet.
+
+\### India Firmware Team
+
+\- Core control loop stable; memory leak identified and under investigation.
+
+\- Team confident in patch prior to CDR, pending additional overnight regression runs.
+
+\## 3. CDR Readiness Review
+
+\- Overall CDR package approximately \*\*85% complete\*\*.
+
+\- Missing elements:
+
+ - Updated reliability allocation table (EU team)
+
+ - EMC pre-test data (US test team)
+
+ - Firmware memory leak resolution summary (India team)
+
+\- Program manager emphasized the CDR gate as critical for downstream procurement approvals.
+
+\## 4. Risk Review
+
+\- \*\*R-17:\*\* Firmware instability — mitigation in progress, India team to provide updated status within 48 hours.
+
+\- \*\*R-09:\*\* Test lab availability — backup slot confirmed; risk downgraded.
+
+\- \*\*R-21:\*\* Supplier lead-time exposure — Supply Chain to confirm last-buy options after CDR.
+
+\## 5. Schedule Alignment
+
+\- CDR scheduled for \*\*2025-12-05\*\*.
+
+\- Dry-run scheduled for \*\*2025-11-28\*\*.
+
+\- All teams aligned on document freeze date of \*\*2025-11-25\*\*.
+
+\# Action Items
+
+\| ID \| Description \| Owner \| Due Date \|
+
+\|----\|-------------\|--------\|----------\|
+
+\| AI-01 \| Provide EMC pre-test data for CDR \| US Engineering \| 2025-11-22 \|
+
+\| AI-02 \| Deliver updated reliability allocation table \| EU Systems \| 2025-11-20 \|
+
+\| AI-03 \| Submit firmware memory leak fix summary \| India Firmware \| 2025-11-23 \|
+
+\| AI-04 \| Confirm supplier last-buy strategy post-CDR \| Supply Chain \| 2025-11-26 \|
+
+\| AI-05 \| Compile full CDR package for dry-run \| Program Manager \| 2025-11-27 \|

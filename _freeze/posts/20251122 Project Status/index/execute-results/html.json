@@ -1,0 +1,17 @@
+{
+  "hash": "9eceaa8160a0f9703a24591f74c9bd6f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Post 5: Project Status\"\nauthor: \"DK\"\ndate: \"2025-11-22\"\nformat:\n  html:\n    toc: true\n    toc-depth: 2\ncategories: [status]\nexecute: \n  echo: false\n  output: true\n  warning: false \nimage: \"IMG_1868.JPG\"\n---\n\n\n\n## Summary\n\n- Overall CDR package completeness: **~85%**  \n- Document freeze: **2025-12-01** (T‐8 days before CDR)  \n- Dry-run scheduled: **2025-12-12**  \n- Highest near-term risks: firmware memory issue (AI-03), EMC test data (AI-01)\n\n## Action Items (source: meeting notes)\n\nThe table below reflects the current set of prioritized action items, owners, and due dates.\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n\nTable: Action Items Summary (as of 2025-11-17)\n\n|id    |description                                  |owner           |due        | days_remaining|status        |\n|:-----|:--------------------------------------------|:---------------|:----------|--------------:|:-------------|\n|AI-01 |Provide EMC pre-test data for CDR            |US Engineering  |2025-11-22 |              5|Due Soon      |\n|AI-02 |Deliver updated reliability allocation table |EU Systems      |2025-11-20 |              3|Due Very Soon |\n|AI-03 |Submit firmware memory leak fix summary      |India Firmware  |2025-11-23 |              6|Due Soon      |\n|AI-04 |Confirm supplier last-buy strategy post-CDR  |Supply Chain    |2025-11-26 |              9|On Track      |\n|AI-05 |Compile full CDR package for dry-run         |Program Manager |2025-11-27 |             10|On Track      |\n\n\n:::\n:::\n\n\n\n# ggplot visualization\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

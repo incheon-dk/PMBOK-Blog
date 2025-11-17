@@ -1,5 +1,5 @@
 ---
-title: "Post 2: What’s New in PMBOK 7th Edition?"
+title: "Post 1: What’s New in PMBOK 7th Edition?"
 author: "DK"
 date: "2025-11-18"
 categories: [changes]

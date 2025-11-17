@@ -1,0 +1,73 @@
+---
+title: "Post 5: Project Status"
+author: "DK"
+date: "2025-11-22"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+categories: [status]
+execute: 
+  echo: false
+  output: true
+  warning: false 
+image: "IMG_1868.JPG"
+---
+
+## Summary
+
+- Overall CDR package completeness: **~85%**  
+- Document freeze: **2025-12-01** (T‐8 days before CDR)  
+- Dry-run scheduled: **2025-12-12**  
+- Highest near-term risks: firmware memory issue (AI-03), EMC test data (AI-01)
+
+## Action Items (source: meeting notes)
+
+The table below reflects the current set of prioritized action items, owners, and due dates.
+
+```{r} 
+# Data and table for Action Items 
+library(tibble) 
+library(knitr) 
+library(lubridate)
+
+report_date <- as.Date("2025-11-17")
+
+action_items <- tibble::tibble( id = c("AI-01","AI-02","AI-03","AI-04","AI-05"), description = c( "Provide EMC pre-test data for CDR", "Deliver updated reliability allocation table", "Submit firmware memory leak fix summary", "Confirm supplier last-buy strategy post-CDR", "Compile full CDR package for dry-run" ), owner = c("US Engineering","EU Systems","India Firmware","Supply Chain","Program Manager"), due = as.Date(c("2025-11-22","2025-11-20","2025-11-23","2025-11-26","2025-11-27")) )
+
+# compute days remaining and status
+
+action_items <- action_items %>% dplyr::mutate( days_remaining = as.integer(due - report_date), status = dplyr::case_when( days_remaining < 0 ~ "Overdue", days_remaining <= 3 ~ "Due Very Soon", days_remaining <= 7 ~ "Due Soon", TRUE ~ "On Track" ) )
+
+kable(action_items, caption = "Action Items Summary (as of 2025-11-17)")
+
+```
+
+# ggplot visualization
+
+```{r}
+library(ggplot2)
+library(forcats)
+ai_plot <- action_items %>%
+dplyr::arrange(days_remaining) %>%
+dplyr::mutate(id = forcats::fct_reorder(id, days_remaining))
+
+ggplot(ai_plot, aes(x = days_remaining, y = id, fill = status)) +
+geom_col(width = 0.6) +
+geom_vline(xintercept = 0, linetype = "dashed", color = "grey40") +
+scale_fill_manual(values = c(
+"Overdue" = "#d7191c",
+"Due Very Soon" = "#fdae61",
+"Due Soon" = "#fee08b",
+"On Track" = "#2b8cbe"
+)) +
+labs(
+title = "Days Remaining to Action Item Due Date",
+subtitle = "Report date: 2025-11-17 — positive = days remaining, negative = overdue",
+x = "Days remaining",
+y = "Action Item ID",
+fill = "Status"
+) +
+theme_minimal(base_size = 12) +
+theme(panel.grid.minor = element_blank())
+```

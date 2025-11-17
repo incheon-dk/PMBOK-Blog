@@ -1,5 +1,5 @@
 ---
-title: "Post 3: Real-Life Example: Technology Transfer Project"
+title: "Post 2: Real-Life Example: Technology Transfer Project"
 author: "DK"
 date: "2025-11-19"
 categories: [technology, transfer]

@@ -1,5 +1,5 @@
 ---
-title: "PMBOK Blog"
+title: "Project Manager's Log"
 listing:
   contents: posts
   sort: "date desc"
