@@ -1,0 +1,174 @@
+---
+title: "Post 2: What’s New in PMBOK 7th Edition?"
+author: "DK"
+date: "2025-11-18"
+categories: [changes]
+image: "20251105_172011.jpg"
+---
+
+# Introduction
+
+The shift from the **PMBOK Guide 6th Edition** to **PMBOK Guide 7th Edition** is the most significant evolution in the Project Management Institute’s framework in decades.\
+Instead of adding more processes, artifacts, and prescribed tools, PMBOK 7 redefines project management around **principles**, **value delivery**, and **adaptability**.
+
+This post breaks down what changed—and why these changes matter to modern project managers.
+
+------------------------------------------------------------------------
+
+# 1. A Shift in Philosophy: Predictive → Flexible
+
+Older editions of PMBOK assumed projects were largely **predictable** and process-driven.\
+But the modern environment? Fast-moving, uncertain, hybrid by default.
+
+PMBOK 7 responds by shifting to a **principle-based** guide, making it methodology-agnostic and compatible with:
+
+-   Agile\
+-   Waterfall\
+-   Hybrid\
+-   Lean\
+-   Systems engineering\
+-   Regulated environments
+
+This flexibility supports real-world complexity instead of prescribing one way to work.
+
+------------------------------------------------------------------------
+
+# 2. From 49 Processes → 12 Guiding Principles
+
+PMBOK 6’s 49 processes are no longer the centerpiece.\
+PMBOK 7 organizes guidance around **12 principles**, such as:
+
+-   Stewardship\
+-   Team collaboration\
+-   Stakeholder engagement\
+-   Systems thinking\
+-   Adaptation\
+-   Quality and value delivery
+
+These principles are meant to guide decision-making—not constrain it.
+
+> **Note:** The 49 processes still exist in PMI’s *Standards+* library for reference.
+
+------------------------------------------------------------------------
+
+# 3. From Knowledge Areas → Performance Domains
+
+Instead of 10 Knowledge Areas (like Scope, Cost, Schedule), PMBOK 7 uses **eight performance domains**:
+
+-   Team\
+-   Stakeholders\
+-   Delivery\
+-   Planning\
+-   Uncertainty & Risk\
+-   Measurement\
+-   Project Work\
+-   Development Approach & Life Cycle
+
+Knowledge areas told you **what** to manage.\
+Performance domains emphasize **how the team behaves to deliver outcomes.**
+
+------------------------------------------------------------------------
+
+# 4. Value Delivery Becomes the Core
+
+PMBOK 7 embraces the idea that project management’s ultimate goal is **value creation**, not just scope delivery.
+
+It introduces the **Value Delivery System**, which emphasizes:
+
+-   Alignment to strategy\
+-   Benefits realization\
+-   Continuous flow of value\
+-   Organizational learning
+
+------------------------------------------------------------------------
+
+# 5. The PM Is Now a Leader, Not a Process Administrator
+
+PMBOK 7 elevates the project manager’s role to:
+
+-   Systems thinker\
+-   Facilitator\
+-   Coach\
+-   Decision enabler\
+-   Value steward
+
+This reflects today’s environment, where PMs must integrate *technical*, *business*, and *people* factors—not just maintain schedules.
+
+------------------------------------------------------------------------
+
+# 6. Tailoring Is Now Essential
+
+Tailoring has always been recommended; now it is **central**.
+
+Structured tailoring considers:
+
+-   Project type\
+-   Delivery approach\
+-   Governance environment\
+-   Compliance needs\
+-   Organizational capabilities
+
+This is especially important in hybrid environments, common in aerospace, R&D, SaaS, and regulated sectors.
+
+------------------------------------------------------------------------
+
+# 7. Better Alignment with Agile & Systems Thinking
+
+While PMBOK 6 had an “Agile Practice Guide” add-on, PMBOK 7 integrates Agile-compatible concepts directly into the core framework.
+
+It also emphasizes **systems thinking**, which is essential for:
+
+-   Complex engineering programs\
+-   Multi-site organizations\
+-   Digital transformation\
+-   Regulatory environments
+
+------------------------------------------------------------------------
+
+# 8. No More ITTO Overload
+
+The ITTOs haven’t disappeared—they’ve been relocated to PMI’s **Standards+** platform.
+
+PMBOK 7 itself removes the 600+ ITTO details, focusing instead on principles and outcomes, streamlining guidance for real-world application.
+
+------------------------------------------------------------------------
+
+# 9. Summary Table
+
+| PMBOK 6            | PMBOK 7                     |
+|--------------------|-----------------------------|
+| 49 Processes       | 12 Principles               |
+| 10 Knowledge Areas | 8 Performance Domains       |
+| Prescriptive       | Adaptive, principles-based  |
+| ITTO-heavy         | ITTO moved to Standards+    |
+| Mostly predictive  | Predictive + Agile + Hybrid |
+| Process-driven     | Value-driven                |
+
+------------------------------------------------------------------------
+
+# 10. Why This Matters
+
+PMBOK 7 emphasizes **judgment, leadership, and adaptability**—skills that differentiate high-performing project managers in complex environments.
+
+If PMBOK 6 was about “how to manage a project,” PMBOK 7 is about “how to deliver value in any environment.”
+
+------------------------------------------------------------------------
+
+# Next Post Preview
+
+**Post 3:** *A Practical Mapping: PMBOK 6 → PMBOK 7 Using R and Quarto*
+
+-   Comparison framework\
+-   R data structures to represent the mapping\
+-   Visualizing domains vs knowledge areas\
+-   Creating Quarto tables and diagrams automatically
+
+------------------------------------------------------------------------
+
+# R Code Block Example for Future Visualization
+
+\`\`\`{r} \# Example: Create a simple PMBOK 6 -\> 7 mapping table in R library(tibble) library(knitr)
+
+pmbok_mapping \<- tibble( PMBOK6 = c("49 Processes", "10 Knowledge Areas", "Prescriptive"), PMBOK7 = c("12 Principles", "8 Performance Domains", "Adaptive, principles-based") )
+
+kable(pmbok_mapping, caption = "PMBOK 6 vs PMBOK 7 Comparison")

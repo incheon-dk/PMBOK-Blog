@@ -1,0 +1,138 @@
+---
+title: "Introduction to PMBOK for Modern Project Managers"
+author: "DK"
+date: "2025-11-17"
+categories: [intro]
+image: "20251104_163313.jpg"
+---
+
+# Introduction
+
+PMBOK has evolved dramatically over the last decade. What many of us learned as *process groups, ITTOs, and detailed workflows* has shifted into a broader, principle-driven view of project management that recognizes that no two projects look the same.
+
+This post breaks down what PMBOK really is (and isn’t), why the 7th Edition shifted direction, and how to use PMBOK as a practical toolkit — not a rigid rulebook.
+
+------------------------------------------------------------------------
+
+# What PMBOK *Is*
+
+PMBOK is:
+
+-   A **framework**, not a methodology\
+-   A **set of guiding principles** that help project managers think better\
+-   A **structure for managing uncertainty, alignment, and risk**\
+-   A **common language** for executives, teams, and stakeholders
+
+Its purpose is to help you deliver value through intentional project leadership.
+
+------------------------------------------------------------------------
+
+# What PMBOK *Is Not*
+
+PMBOK is not:
+
+-   A step-by-step recipe\
+-   A strict set of required processes\
+-   A waterfall-only handbook\
+-   A replacement for Agile or SAFe\
+-   A certification manual (even PMP uses other materials)
+
+It is *methodology-neutral*.
+
+------------------------------------------------------------------------
+
+# Why PMBOK 7 Changed
+
+Past editions were heavily process-oriented:
+
+-   5 Process Groups\
+-   49 Processes\
+-   ITTO tables
+
+But global projects were shifting:
+
+-   More Agile\
+-   More hybrid\
+-   More product-focused\
+-   More uncertainty\
+-   More digital workflows\
+-   More cross-functional work
+
+PMI realized: **projects need principles, not rigid blueprints.**
+
+Hence: **12 Project Management Principles and 8 Performance Domains**.
+
+------------------------------------------------------------------------
+
+# PMBOK 7 at a Glance
+
+## **12 Principles (Leadership Mindsets)**
+
+-   Stewardship\
+-   Team\
+-   Stakeholders\
+-   Value\
+-   Systems thinking\
+-   Tailoring\
+-   Quality\
+-   Complexity\
+-   Adaptability\
+-   Risk\
+-   Change\
+-   Delivering value
+
+These are **habits**, not procedures.
+
+## **8 Performance Domains (Execution Realities)**
+
+-   Stakeholders\
+-   Team\
+-   Development Approach & Lifecycle\
+-   Planning\
+-   Project Work\
+-   Delivery\
+-   Measurement\
+-   Uncertainty/Risk
+
+Domains represent ongoing areas of *performance*, not phases.
+
+------------------------------------------------------------------------
+
+# What Makes PMBOK Useful Today
+
+PMBOK gives you:
+
+### ✔ A way to structure decision-making
+
+### ✔ A shared vocabulary
+
+### ✔ A strategy for tailoring your delivery approach
+
+### ✔ A consistent method of aligning teams and stakeholders
+
+### ✔ A framework that pairs naturally with Agile, Waterfall, or hybrid delivery
+
+It teaches you *how to think*, *how to adapt*, and *how to lead across complexity*.
+
+------------------------------------------------------------------------
+
+# How I Will Use PMBOK in This Blog
+
+Throughout this blog, I will:
+
+-   Deconstruct PMBOK principles into **practical checklists**\
+-   Connect PMBOK to **real engineering and regulated-industry** examples\
+-   Show how to integrate PMBOK with **R, Quarto, dashboards, and metrics**\
+-   Provide **templates for planning, risk logs, RAID logs, and governance**\
+-   Demonstrate **tailoring decisions** with real case scenarios
+
+If PMBOK is the map, this blog will be the **road-tested guidebook**.
+
+------------------------------------------------------------------------
+
+# Coming Next
+
+-   **Performance Domains Explained Clearly**\
+-   **Tailoring (With Real Examples)**\
+-   **PMBOK vs Agile vs Hybrid Delivery Frameworks**\
+-   **How PMBOK Applies in Regulated Industries**
